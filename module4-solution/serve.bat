@@ -1,0 +1,1 @@
+start cmd /k browser-sync start --server --directory --files "css/*.css" "*.html" "js/*.js" "*.php" "**/*"
