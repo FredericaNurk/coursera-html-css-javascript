@@ -1,0 +1,102 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    /* background-color: #123456; */
+    font-family: 'Oxygen', sans-serif;
+}
+
+/** --------------------------------- Header ------------------------------- **/
+
+#header-nav {
+    background-color: #999999;
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 0px
+}
+
+div#navbar-collapsed {
+    border: 0px;
+}
+
+ul#nav-list {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: black;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #e7e7e7;
+    font-weight: bold;
+}
+
+div.container {
+    margin: 0px;
+}
+
+.navbar-brand {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid white;
+}
+
+#menu-btn-element {
+    background-color: white;
+    text-color: black;
+}
+
+/** ------------------------------- Jumbotron ------------------------------ **/
+
+.jumbotron {
+    background-color: white;
+}
+
+h1.text-center {
+    color: black;
+    margin-top: 0px;
+}
+
+.menu {
+    /* height: 1000px; */
+    margin-top: 30px;
+    background-color: #909090;
+    
+}
+
+#menu-title {
+    text-size: 175%;
+    color: black;
+    font-weight: bold;
+}
+
+#menu-category {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#menu-description {
+    text-align: justify;
+    color: black;
+    margin-botom: 30px;
+}
